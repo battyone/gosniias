@@ -1,0 +1,45 @@
+@font-face {font-family: 'PT Mono'; 
+	src: url('/resources/fonts/ptm55f_w.eot'); 
+	src: local('PT Mono'), url('/resources/fonts/ptm55f_w.eot?#iefix') format('embedded-opentype'),url('/resources/fonts/ptm55f_w.woff') format('woff'),url('/resources/fonts/ptf55m_w.ttf') format('truetype'), url('/resources/fonts/ptm55f_w.svg#PTMono-Regular') format('svg');}
+
+@font-face {font-family: 'PT Mono';
+	src: url('/resources/fonts/ptm75f_w.eot');
+	font-style: normal;
+	font-weight: bold; 
+	src: local('PT Mono Bold'), url('/resources/fonts/ptm75f_w.eot?#iefix') format('embedded-opentype'), url('/resources/fonts/ptm75f_w.woff') format('woff'),url('/resources/fonts/ptm75f_w.ttf') format('truetype'), url('/resources/fonts/ptm75f_w.svg#PTMono-Bold') format('svg');}
+
+textarea {
+    font-family: monospace;    
+}
+td {
+    vertical-align: top;
+}
+
+.menu{
+
+}
+
+.loader{
+    background-image: url('/resources/img/ajax-loader.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.data{
+    display: none;
+}
+
+.rborder{
+    border-right: 1px solid #1b6d85;
+    padding-right: 10px;
+    min-height: 500px;
+}
+
+.container {
+    width: 95% !important;
+    margin-top: 50px;
+}

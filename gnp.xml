@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ginp SYSTEM  "ginp.dtd" >
+<ginp>
+    <collection>
+        <name>My Private Photo Collection</name>
+        <root>/path/to/my/Photos</root>
+        <users></users>
+        <admins>
+            <username>admin</username>
+        </admins>
+    </collection>
+    <collection>
+        <name>Guest Photo Collection</name>
+        <root>/path/to/public/Photos</root>
+        <users>
+            <username>guest</username>
+            <username>admin</username>
+        </users>
+        <admins>
+            <username>admin</username>
+        </admins>
+    </collection>
+    <user username="admin" userpass="adminpass" fullname="Administrator" />
+    <user username="guest" userpass="guestpass" fullname="Guest User" />
+</ginp>

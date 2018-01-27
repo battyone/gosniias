@@ -1,0 +1,24 @@
+<%@ page pageEncoding="UTF-8" %>
+<div class="rborder">
+
+    <div class="panel panel-default">
+        <div class="panel-heading">Groovy</div>
+        <div class="panel-body">
+            <a href="/functions" class="btn btn-md btn-block alert-warning" id="gr-list-menu">Функции, groovy скрипты</a>
+            <a href="/rules?typeOf=SCRIPT" class="btn btn-md btn-block alert-warning" id="SCRIPT">Последовательное исполнение функций</a>
+            <a href="/run-groovy" class="btn btn-md btn-block alert-warning" id="test-online">Тестирование скриптов online</a>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">Требования</div>
+        <div class="panel-body">
+            <a href="/projects" class="btn btn-md btn-block alert-warning" id="projects">Проекты</a>
+            <a href="/taxons" class="btn btn-md btn-block alert-warning" id="taxons">Понятия, термины</a>
+            <a href="/relations" class="btn btn-md btn-block alert-warning" id="relations">Факты</a>
+            <a href="/rules?typeOf=SET_RULE" class="btn btn-md btn-block alert-warning" id="SET_RULE">Создание правил</a>
+            <a href="/rules?typeOf=CHECK_RULE" class="btn btn-md btn-block alert-warning" id="CHECK_RULE">Проверка правил</a>
+        </div>
+    </div>
+
+</div>
