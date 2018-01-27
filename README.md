@@ -1,5 +1,5 @@
 # gosniias
-Frame network for avionica
+Semantic network or frame network for avionica
 
 
 Projects, objects, relations....
